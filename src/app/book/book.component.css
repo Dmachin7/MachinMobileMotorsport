@@ -140,6 +140,7 @@ button:hover {
 
     button {
         font-size: 15px;
+
     }
 
     .info h2 {
@@ -149,5 +150,7 @@ button:hover {
     .info {
         padding: 0;
         height: 100px;
+        /* outline: 2px solid red; */
+        overflow: hidden;
     }
 }
