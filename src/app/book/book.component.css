@@ -115,10 +115,12 @@ button:hover {
         align-items: center;
         /* outline: 2px solid red; */
         margin: 0;
+        padding: 0;
+        overflow: hidden;
     }
 
     .image {
-        width: 80%;
+        width: 70%;
         height: 80%;
         margin: 0;
     }
