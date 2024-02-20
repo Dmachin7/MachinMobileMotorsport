@@ -126,7 +126,7 @@ button:hover {
     }
 
     .image2 {
-        transform: translateY(-70px);
+        transform: translateY(-50px);
     }
 
     .title {
@@ -136,5 +136,13 @@ button:hover {
 
     section {
         height: 100%;
+    }
+
+    button {
+        font-size: 15px;
+    }
+
+    .info h2 {
+        font-size: 20px;
     }
 }
