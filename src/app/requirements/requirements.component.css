@@ -1,0 +1,25 @@
+section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50%;
+    height: 100%;
+}
+
+
+.container2 {
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1564633351631-e85bd59a91af?q=80&w=2896&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+h2 {
+    font-size: 60px;
+}
