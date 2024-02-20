@@ -50,9 +50,19 @@ button {
 
 button:hover {
     transition: all 0.3s ease;
-    background-color: white;
+    background-color: rgb(80, 210, 249);
+    border: solid 2px rgb(80, 210, 249);
+
     color: black;
     cursor: pointer;
+}
+
+
+
+
+button a {
+    text-decoration: none;
+    color: white;
 }
 
 @media screen and (max-width: 450px) {

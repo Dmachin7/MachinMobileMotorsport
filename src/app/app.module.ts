@@ -9,6 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { OptionsComponent } from './options/options.component';
 import { RequirementsComponent } from './requirements/requirements.component';
 import { BookComponent } from './book/book.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BookComponent } from './book/book.component';
     AboutComponent,
     OptionsComponent,
     RequirementsComponent,
-    BookComponent
+    BookComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
