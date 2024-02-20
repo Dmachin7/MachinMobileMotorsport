@@ -9,7 +9,13 @@ section {
 .container {
     width: 50%;
     height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
 }
+
+
 
 
 .container2 {
@@ -22,4 +28,63 @@ section {
 
 h2 {
     font-size: 60px;
+    padding: 2rem;
+    margin: 0;
+}
+
+ul {
+    padding: 2rem;
+}
+
+button {
+    background: black;
+    color: white;
+    font-size: 40px;
+    padding: 1rem;
+    border-radius: 5px;
+    border: solid 2px black;
+    margin: 0;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transition: all 0.3s ease;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+    section {
+        position: relative;
+    }
+    .container2 {
+        position: absolute;
+        width: 100%;
+        filter: brightness(0.4);
+    }
+
+    .container {
+        z-index: 1;
+        background: white;
+        height: 90%;
+        width: 90%;
+        border-radius: 10px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+
+   li {
+    font-size: 14px;
+   }
+
+   button {
+    font-size: 25px;
+    transform: translateY(-50px);
+   }
+
 }

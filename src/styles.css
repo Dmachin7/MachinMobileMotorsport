@@ -14,4 +14,11 @@ html {
 
 section {
     scroll-snap-align: start;
+    scroll-margin: 100px;
+}
+
+@media screen and (max-width: 450px) {
+    section {
+        scroll-margin: 0;
+    }
 }

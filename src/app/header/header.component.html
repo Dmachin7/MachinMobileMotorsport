@@ -1,5 +1,10 @@
 <div class="container" [ngClass]="{'scrolled': isScrolled}">
-    <ul>
+    <div (click)="showMobileNav()" class="mobile" [ngClass]="display">
+        <span class="bar"></span>
+        <span class="bar bar2"></span>
+        <span class="bar bar3"></span>
+    </div>
+    <ul (click)="showMobileNav()" [ngClass]="show">
         <li>
             <a href="#">Home</a>
         </li>
