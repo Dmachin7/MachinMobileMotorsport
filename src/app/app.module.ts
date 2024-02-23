@@ -10,6 +10,9 @@ import { OptionsComponent } from './options/options.component';
 import { RequirementsComponent } from './requirements/requirements.component';
 import { BookComponent } from './book/book.component';
 import { FooterComponent } from './footer/footer.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatStepperModule} from '@angular/material/stepper';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +27,9 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatStepperModule
   ],
   providers: [],
   bootstrap: [AppComponent]

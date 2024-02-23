@@ -13,8 +13,20 @@ section {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+    transform: translateX(-1000px);
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-range: entry -200px;
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 
 
 
@@ -34,26 +46,34 @@ h2 {
 
 ul {
     padding: 2rem;
+
 }
 
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 button {
-    background: black;
+    background: rgb(80, 210, 249);
     color: white;
     font-size: 40px;
     padding: 1rem;
     border-radius: 5px;
-    border: solid 2px black;
-    margin: 0;
+    border: solid 2px rgb(80, 210, 249);
+    margin: 10px;
     outline: none;
     transition: all 0.3s ease;
 }
 
 button:hover {
     transition: all 0.3s ease;
-    background-color: rgb(80, 210, 249);
-    border: solid 2px rgb(80, 210, 249);
-
-    color: black;
+    background-color: rgb(80, 249, 204);
+    border: solid 2px rgb(80, 249, 204);
     cursor: pointer;
 }
 
@@ -93,8 +113,12 @@ button a {
    }
 
    button {
-    font-size: 25px;
+    font-size: 20px;
     transform: translateY(-50px);
+   }
+
+   .buttons {
+    flex-direction: column;
    }
 
 }
